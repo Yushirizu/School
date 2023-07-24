@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1685795880 source:c:\users\ulyss\downloads\pro_2223_c_gr3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"myconio.h"
+	"K8055D_C.h"
+
+1685712779 c:\users\ulyss\downloads\pro_2223_c_gr3\myconio.h
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	"myconio.cpp"
+
+1218708384 c:\users\ulyss\downloads\pro_2223_c_gr3\myconio.cpp
+
+1682112448 c:\users\ulyss\downloads\pro_2223_c_gr3\k8055d_c.h
+
