@@ -12,13 +12,17 @@
 #include <time.h>
 
 void fillArray(int *array, int size);
+
 void displayArray(int *array, int size);
+
 void rearrangeArray(int *array, int size);
+
 void createFile(int *array, int size);
 
 int main()
 {
-    int size, choice, i;
+    int size;
+    int choice;
     int *array;
 
     printf("Enter the size of the array: ");
@@ -51,13 +55,15 @@ int main()
             createFile(array, size);
             break;
         case 5:
-            printf("Goodbye!");
+            printf("Goodbye!\n");
             break;
         default:
-            printf("Invalid choice!");
+            printf("Invalid choice!\n");
             break;
         }
     } while (choice != 5);
+
+    free(array);
 
     return 0;
 }
@@ -82,11 +88,14 @@ void displayArray(int *array, int size)
     {
         printf("%d ", array[i]);
     }
+    printf("\n");
 }
 
 void rearrangeArray(int *array, int size)
 {
-    int i, temp, random;
+    int i;
+    int temp;
+    int random;
 
     srand(time(NULL));
 
