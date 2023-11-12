@@ -1,4 +1,4 @@
-// Write a program that determine the number of voyels in a text of 100 characters
+// Write a program that determine the number of vowels in a text of 100 characters
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -6,7 +6,7 @@
 int main()
 {
     char text[100];
-    int i, voyels = 0;
+    int i, vowels = 0;
 
     printf("Enter a text of 100 characters: ");
     gets(text);
@@ -15,11 +15,11 @@ int main()
     {
         if (text[i] == 'a' || text[i] == 'e' || text[i] == 'i' || text[i] == 'o' || text[i] == 'u')
         {
-            voyels++;
+            vowels++;
         }
     }
 
-    printf("The number of voyels in the text is: %d", voyels);
+    printf("The number of vowels in the text is: %d", vowels);
 
     return 0;
 }

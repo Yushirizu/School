@@ -1,0 +1,6 @@
+# ninja log v5
+0	79	7133041930015804	CMakeFiles/C_Exam.dir/Big_part.c.obj	20724cd62efb0e02
+72	228	7133043931855773	C_Exam.exe	75538ba6f375dcc7
+3	170	7133044899424053	build.ninja	4234d1913ca6d2c7
+0	72	7133043930324353	CMakeFiles/C_Exam.dir/random_ex.c.obj	c14160997aa89beb
+2	64	7133044949729827	CMakeFiles/C_Exam.dir/random_ex.c.obj	c14160997aa89beb
